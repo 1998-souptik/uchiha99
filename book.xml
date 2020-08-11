@@ -1,0 +1,67 @@
+<xml version="1.0" encoding="utf-8">
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book)>
+<!ELEMENT book (Book_title,Author(s),Genre,CopyrightYear,BookEdition,ISBN,Publisher,BookPrice)>
+<!ELEMENT Book_title (#PCDATA)>
+<!ELEMENT Author(s) (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT CopyrightYear (#PCDATA)>
+<!ELEMENT BookEdition (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT BookPrice (#PCDATA)>
+]>
+<xml-stylesheet type="text/xsl" href="bookstore.xsl">
+<bookstore>
+    <book>
+        <Book_title>C Programming Language</Book_title>
+        <Author(s)>Brian W Keringhan</Author(s)>
+        <Author(s)>Dennis Ritchie</Author(s)>
+        <Genre>Programming</Genre>
+        <CopyrightYear>1972</CopyrightYear>
+        <BookEdition>2nd Edition</BookEdition>
+        <ISBN>9780131101630</ISBN>
+        <Publisher>Prentice Hall</Publisher>
+        <BookPrice>Rs 150</BookPrice>
+    </book>
+    <book>
+        <Book_title>The Return of Sherlock Holmes</Book_title>
+        <Author(s)>Arthur Conan Doyle</Author(s)>
+        <Genre>Crime,Mystery</Genre>
+        <CopyrightYear>1905</CopyrightYear>
+        <BookEdition>1st Edition</BookEdition>
+        <ISBN>9780161171030</ISBN>
+        <Publisher>George Newnes</Publisher>
+        <BookPrice>Rs 250</BookPrice>
+    </book>
+    <book>
+        <Book_title>Shonku Samagra</Book_title>
+        <Author(s)>Satyajit Ray</Author(s)>
+        <Genre>Sci-fi</Genre>
+        <CopyrightYear>1998</CopyrightYear>
+        <BookEdition>1st Edition</BookEdition>
+        <ISBN>9788177562323</ISBN>
+        <Publisher>Ananda Publishers</Publisher>
+        <BookPrice>Rs 250</BookPrice>
+    </book>
+    <book>
+        <Book_title>C++ How to Program</Book_title>
+        <Author(s)>Deitel and Deitel</Author(s)>
+        <Genre>Programming</Genre>
+        <CopyrightYear>2017</CopyrightYear>
+        <BookEdition>10th Edition</BookEdition>
+        <ISBN>9788177562323</ISBN>
+        <Publisher>Pearson</Publisher>
+        <BookPrice>Rs 250</BookPrice>
+    </book>
+    <book>
+        <Book_title>JAVA How to Program</Book_title>
+        <Author(s)>Deitel and Deitel</Author(s)>
+        <Genre>Programming</Genre>
+        <CopyrightYear>2017</CopyrightYear>
+        <BookEdition>10th Edition</BookEdition>
+        <ISBN>9788177562323</ISBN>
+        <Publisher>Pearson</Publisher>
+        <BookPrice>Rs 250</BookPrice>
+    </book>
+</bookstore>
